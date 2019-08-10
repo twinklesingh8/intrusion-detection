@@ -14,7 +14,7 @@ def suspected_message():#intruder suspected message
     speak.Speak("Intruder Suspected")
 
 #my PushBullet API key
-api_key ="o.XWzU7triqJY1XtCJHBtR2n4tL7O0jXzf"
+api_key ="xyz"
 pb =PushBullet(api_key)
 pushMsg =pb.push_note("PYTHON : ","Found a Connectivity, is this you? if not message 'No' ")
 
